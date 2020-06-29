@@ -1,0 +1,54 @@
+<div class="contaier">
+    <div class="section">
+        <div class="parallax-container" data-aos="zoom-in-down" data-aos-duration="500" data-aos-offset="300">
+            <div class="parallax"><img src="images/stadium.jpg">
+            </div>
+
+            <div class="content white-text">
+                <div class="background-transparent">
+                    <h1 class="center-align">List Match</span>
+                    </h1>
+                </div>
+                <center>
+                    <span class="center-align"> The match will be held soon in the near future</span>
+                </center>
+            </div>
+        </div>
+        <div class="progress">
+            <div class="indeterminate red"></div>
+        </div>
+        <h3>Select League</h3>
+        <div class="input-field col s12">
+            <select id="selectLeague" onchange="selectLeague()">
+                <option value="" disabled>Choose your Leauge</option>
+                <option value="2021">English Premier League</option>
+                <option value="2014">LALIGA</option>
+                <option value="2002">Bundes League</option>
+                <option value="2015">Ligue 1</option>
+            </select>
+        </div>
+
+        <h3>Filter</h3>
+        <div class="input-field col s12">
+            <select id="selectFilter" onchange="selectLeague()">
+                <option value="" disabled>STATUS</option>
+                <option value="SCHEDULED">SCHEDULED</option>
+                <option value="FINISHED" selected>FINISHED</option>
+                <option value="IN_PLAY">IN PLAY</option>
+                <option value="PAUSED">PAUSED</option>
+                <option value="POSTPONED">POSTPONED</option>
+                <option value="SUSPENDED">SUSPENDED</option>
+                <option value="CANCELED">CANCELED</option>
+
+            </select>
+        </div>
+
+        <div class="row">
+            <div id="schedules">
+                <!-- Card berisi artikel akan disisipkan ke dalam sini. -->
+            </div>
+        </div>
+
+        <div id="nothing-result" width="100%">
+        </div>
+    </div>

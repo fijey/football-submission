@@ -1,0 +1,165 @@
+/* umum */
+#body-content {
+    width: 100%;
+}
+
+#details {
+    width: 100%;
+}
+
+
+
+
+/* akhir pagination */
+
+img.logo-football{
+    width: 182px;
+    height: 61px;
+    background: snow;
+    margin-top: 2px;
+}
+
+.status{
+
+    padding: 4px;
+}
+
+.logodetail{
+    width: 256px; 
+    height: 256px; 
+    padding: 15px;
+    margin-left: 0px; 
+    margin-top:150px;
+}
+
+.matchday{
+    padding-top: 8px;
+}
+
+thead{
+    margin-top: 20px;
+}
+
+
+.img-300{
+    width: 300px;
+    height: 300px;
+}
+
+#logo-in-card{
+    margin: 50px;
+}
+
+.logo-teams-256{
+  width: 256px; 
+  height: 256px; 
+  padding: 15px;
+}
+
+.appname{
+    margin-left: 40px;
+}
+
+.parallax-container{
+    height: 200px;
+}
+
+.background-transparent{
+background-color: #000000a9;
+height: 80px;
+}
+
+.img-corner{
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.background-blue {
+    background-color: #0061b0;
+    color: white;
+}
+
+
+
+/* navigasi */
+
+
+/* akhir naviagsi */
+
+body{
+    background-color: #ffffff;
+}
+
+.index2 {
+    z-index: 2;
+}
+
+.logo-team {
+    height: 50px;
+    width: 50px;
+}
+
+/* card */
+.card {
+    height: auto;
+    width: auto;
+}
+
+.card-image {
+
+}
+.card .card-image .card-title {
+    background-color: #00000069;
+    color: white;
+    width: 100%;
+
+}
+
+.card-content p {
+    height: 50px;
+    overflow: hidden;
+}
+
+
+
+.home-score-blue{
+    font-size: 20px;
+    color: #0026ff;
+}
+.away-score-red{
+    font-size: 20px;
+    color: #fd0000;
+}
+
+/* card akhir */
+
+
+/* akhir komentar */
+
+
+
+
+
+/* mobile experience */
+
+@media screen and (max-width:1008px) {
+    .appname{
+        font-size: medium;
+    }
+
+    img.logo-football{
+        width: 172px;
+        height: 50px;
+        background: snow;
+        margin-top: 2px;
+    }
+
+   .logodetail{
+    width: 256px; height: 256px; padding: 15px;margin-top: 0px;
+    margin-left: 43px;
+   } 
+
+}

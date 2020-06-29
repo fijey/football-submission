@@ -1,0 +1,69 @@
+<div class="contaier">
+    <div class="section">
+        <div class="parallax-container" data-aos="flip-right" data-aos-duration="500" data-aos-offset="300">
+            <div class="parallax"><img src="images/stadium.jpg">
+            </div>
+
+            <div class="content white-text">
+                <div class="background-transparent">
+                    <h1 class="center-align">Standings</span>
+                    </h1>
+                </div>
+                <center>
+                    <span class="center-align"> see the latest Premier League Standings</span>
+                </center>
+            </div>
+        </div>
+    </div>
+
+    <div class="progress">
+        <div class="indeterminate red"></div>
+    </div>
+
+    <h3>Select League</h3>
+    <div class="input-field col s12">
+        <select id="selectStandings" onchange="selectStandings()">
+            <option disabled>Choose your League</option>
+            <option value="2021" selected>English Premier League</option>
+            <option value="2014">LALIGA</option>
+            <option value="2002">Bundes League</option>
+            <option value="2015">Ligue 1</option>
+        </select>
+    </div>
+    <h3>Select Filter</h3>
+    <div class="input-field col s12">
+        <select id="selectFilterStandings" onchange="selectStandings()">
+            <option disabled>Choose your League</option>
+            <option value="TOTAL" selected>Total</option>
+            <option value="HOME">Home</option>
+            <option value="AWAY">Away</option>
+        </select>
+    </div>
+
+
+    <div class="row">
+        <div class="col s12">
+            <table class="responsive-table centered striped">
+                <thead>
+                    <th class="blue darken-2 white-text center-align">No</th>
+                    <th class="blue darken-2 white-text">&nbsp;</th>
+                    <th class="blue darken-2 white-text">Team</th>
+                    <th class="blue darken-2 white-text">Pl</td>
+                    <th class="blue darken-2 white-text">W</td>
+                    <th class="blue darken-2 white-text">D</td>
+                    <th class="blue darken-2 white-text">L</th>
+                    <th class="blue darken-2 white-text">GF</th>
+                    <th class="blue darken-2 white-text">GA</td>
+                    <th class="blue darken-2 white-text">GD</td>
+                    <th class="blue darken-2 white-text">PTS</th>
+                </thead>
+                <tbody id="standings">
+
+
+                </tbody>
+                <!-- Card berisi artikel akan disisipkan ke dalam sini. -->
+            </table>
+        </div>
+    </div>
+</div>
+</div>

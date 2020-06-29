@@ -1,0 +1,141 @@
+<html>
+
+<title>Football</title>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/universal.css">
+    <link rel="shortcut icon" href="/images/icons/icon-192x192.png">
+    <link rel="apple-touch-icon" href="/images/icons/icon-192x192.png">
+    <link rel="manifest" href="/manifest.json">
+</head>
+
+<body>
+
+    <!-- Navigasi -->
+    <nav class="blue darken-4 black-text text-darken-2" role="navigation">
+        <div class="nav-wrapper container ">
+            <a href="./index.html" class="brand-logo" id="logo-container"><span class="appname">Football</span></a>
+            <a href="./index.html" data-target="nav-mobile">
+                <i class="material-icons">arrow_back</i>
+            </a>
+
+            <ul class="topnav right hide-on-med-and-down"></ul>
+            <ul class="sidenav" id="nav-mobile"></ul>
+        </div>
+    </nav>
+    <!-- Akhir Navigasi -->
+
+    <div class="progress">
+        <div class="indeterminate red"></div>
+    </div>
+
+    <!-- konteninfoclub -->
+    <div class="container" data-aos="flip-right" data-aos-duration="500" data-aos-offset="300">
+        <div class="row">
+            <div id="details"></div>
+        </div>
+    </div>
+    <!-- akhirinfoclub -->
+    <div class="row">
+        <div class="container">
+            <!-- UPCOMING MATCH -->
+            <div class="section">
+                <div class="parallax-container" data-aos="zoom-in-down" data-aos-duration="500" data-aos-offset="300">
+                    <div class="parallax"><img src="images/stadium.jpg">
+                    </div>
+
+                    <div class="content white-text">
+                        <div class="background-transparent">
+                            <h2 class="center-align small">6 Upcoming Matches<br>
+                                <span id="upcomingName"></span>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="upcomingdiv">
+            </div>
+        </div>
+    </div>
+    <!-- CAPTION LIST SQUAD -->
+    <div class="container">
+        <div class="section">
+            <div class="parallax-container" data-aos="flip-right" data-aos-duration="500" data-aos-offset="300">
+                <div class="parallax"><img src="images/stadium.jpg">
+                </div>
+
+                <div class="content white-text">
+                    <div class="background-transparent">
+                        <h1 class="center-align">List Squad <span id="club-names"></span>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- AKHIR CAPTION LIST SQUAD -->
+        <!-- LIST SQUAD -->
+        <div class="row">
+            <div id="squads" width="100%"></div>
+        </div>
+        <!-- AKHIR LIST SQUAD -->
+    </div>
+    <!-- byutton -->
+    <div class="fixed-action-btn">
+        <a class=" btn-floating btn-large blue" id="save">
+            <i class="large material-icons">save</i>
+        </a>
+    </div>
+
+    <div class="fixed-action-btn">
+        <a class=" btn-floating btn-large red pulse " id="delete">
+            <i class="large material-icons">delete</i>
+        </a>
+    </div>
+
+
+    <div class="tap-target blue" data-target="save" id="featured-discover">
+        <div class="tap-target-content">
+            <h5 class="white-text">Hi there!</h5>
+            <p class="white-text">You can save your favorite team by clicking this button.</p>
+        </div>
+    </div>
+
+
+
+    <footer class="page-footer blue darken-4">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col l6 m4 l6">
+                    <h5 class="white-text">Football.info</h5>
+                    <p class="grey-text text-lighten-4">The Latest News About Soccer
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2020 Copyright - All Rights Reserved
+                <a class="grey-text text-lighten-4 right" href="#!">Football.info by Fajar Mukti</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- javascript -->
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/api.js"></script>
+    <script type="text/javascript" src="js/idb.js"></script>
+    <script type="text/javascript" src="js/db.js"></script>
+    <script type="text/javascript" src="js/push.js"></script>
+    <script type="text/javascript" src="js/register.js"> </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="js/detail.js"></script>
+
+</body>
+
+</html>

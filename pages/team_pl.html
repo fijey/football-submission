@@ -1,0 +1,36 @@
+<div class="contaier">
+    <div class="section">
+        <div class="parallax-container" data-aos="zoom-out" data-aos-duration="500" data-aos-offset="300">
+            <div class="parallax"><img src="images/stadium.jpg">
+            </div>
+
+            <div class="content white-text">
+                <div class="background-transparent">
+                    <h2 class="center-align">Teams </span>
+                    </h2>
+                </div>
+                <center>
+                    <span class="center-align"> Which team is your favorite?</span>
+                </center>
+            </div>
+        </div>
+
+        <div class="progress">
+            <div class="indeterminate red"></div>
+        </div>
+
+        <h3>Select League</h3>
+        <div class="input-field col s12">
+            <select id="selectTeams" onchange="selectTeams()">
+                <option disabled>Choose your League</option>
+                <option value="2021" selected>English Premier League</option>
+                <option value="2014">LALIGA</option>
+                <option value="2002">Bundes League</option>
+                <option value="2015">Ligue 1</option>
+            </select>
+        </div>
+
+        <div id="teams" width="100%">
+        </div>
+
+    </div>
