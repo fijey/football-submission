@@ -112,7 +112,7 @@ function scheduleHTML(data) {
     schedulesHTML += `
         <div class="line-content"> 
           <div class="col s12 l6">
-            <div class="card hoverable">
+       y     <div class="card hoverable">
               <div class="card-content">
                 <span class="status blue darken-2 white-text">${schedule[i].status}</span>
                 <p class="matchday"><b>Matchday ${schedule[i].matchday} of 38</b></p>
