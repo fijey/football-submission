@@ -43,6 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
         console.log("Tombol FAB di klik.");
         item.then(function (team) {
             saveForLater(team);
+            btnSave.style.display = 'none';
 
         })
     }

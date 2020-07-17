@@ -9,11 +9,15 @@ if ("serviceWorker" in navigator) {
             .catch(function () {
                 console.log("Pendaftaran ServiceWorker gagal");
             });
+        navigator.serviceWorker.ready.then(() => {
+            console.log("service worker ready");
+            requestPermission();
+        });
     });
-    requestPermission();
 } else {
     console.log("ServiceWorker belum didukung browser ini.");
 }
+
 
 
 

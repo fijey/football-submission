@@ -15,7 +15,6 @@ const urlBase64ToUint8Array = (base64String) => {
     return outputArray;
 }
 
-
 function requestPermission() {
     if ('Notification' in window) {
         Notification.requestPermission().then(function (result) {

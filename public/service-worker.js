@@ -21,7 +21,10 @@ if (workbox) {
         { url: '/js/push.js', revision: '1' },
         { url: '/js/idb.js', revision: '1' },
         { url: '/js/db.js', revision: '1' },
-    ]);
+        { url: '/js/detail.js', revision: '1' },
+    ], {
+        ignoreUrlParametersMatching: [/.*/]
+    });
 
     //FONT GOOGLE API
     workbox.routing.registerRoute(
