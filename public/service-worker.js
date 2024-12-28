@@ -15,7 +15,7 @@ if (workbox) {
         { url: '/js/materialize.min.js', revision: '1' },
         { url: '/js/materialize.js', revision: '1' },
         { url: '/js/nav.js', revision: '1' },
-        { url: '/js/api.js', revision: '1' },
+        { url: '/js/api.js', revision: '2' },
         { url: '/js/jquery-3.2.1.min.js', revision: '1' },
         { url: '/js/register.js', revision: '1' },
         { url: '/js/push.js', revision: '1' },
